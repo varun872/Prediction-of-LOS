@@ -12,6 +12,9 @@ Understanding and predicting LOS is essential for several reasons:
 In the context of predicting LOS, both regression and classification approaches can be considered. Regression predicts a continuous variable (e.g., the exact number of days a patient will stay), while classification assigns instances to discrete categories (e.g., short stay, medium stay, extended stay).
 In the case of LOS prediction, classification is often more practical and interpretable. It allows healthcare providers to categorize patients into meaningful groups, facilitating targeted interventions and resource allocation based on the predicted length of stay categories.
 
+## About the dataset
+<b>New York Hospital Inpatient Discharge 2015 Dataset</b>. This dataset is easily accessible to the public at <a href="https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/82xm-y6g8/about_data">Link to dataset</a>. It has around 2.3 million records and contains 34 unique features. 
+
 ## Ensemble Machine Learning Models Used
 Ensemble models combine the predictions of multiple base models to improve overall performance. Here, we explore five popular ensemble models for LOS prediction:
 1. Logistic Regression
