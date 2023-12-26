@@ -22,3 +22,7 @@ Ensemble models combine the predictions of multiple base models to improve overa
 3. Gradient Boosting
 4. Catboost
 5. XGBoost
+
+## Conclusions
+In our effort to predict Length of Stay (LOS), we explored both regression and classification models. Among the regression models, XGBoost emerged as the top performer, achieving the lowest Mean Absolute Error (MAE) at 2.783. Notably, we found no significant correlations among the columns, prompting an investigation into classification models.
+For the classification task, we strategically divided the dataset into three distinct bin classes, taking into account the average LOS of approximately 6 days. The classes were defined as (0-6), (6-120+), and (0-6, 6-30, 30-120+). In this context, CatBoost outperformed other models, demonstrating an overall accuracy of 83%. Even after employing cross-validation, the accuracy remained consistently high. Interestingly, attempts to address dataset imbalance through under-sampling resulted in a 5% reduction in the overall accuracy of all models.
